@@ -1,0 +1,25 @@
+@media screen and (min-width: 991px)  {
+    .cards{
+        width: 20%;
+    }
+}
+@media screen and (min-width: 768px ) and (max-width: 990px)  {
+    .cards{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 300px ) and (max-width: 575px)  {
+    .cards{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 100px ) and (max-width: 350px)  {
+    .cards{
+        width: 100%;
+    }
+}
+.page{
+    position: relative;
+    top: 55px;
+}

@@ -1,0 +1,29 @@
+.movieImage{
+    object-fit: cover;
+}
+.detailTitle{
+    font-size: 31px;
+    font-weight: 400;
+}
+.infoTitle{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.info{
+    font-size: 14px;
+    font-weight: 300;
+}
+.rating{
+    font-size: 25px;
+    font-weight: 300;
+    color: #9B9B9B;
+
+}
+.actor{
+    font-size: 14px;
+}
+.detailPage{
+    position: relative;
+    top: 65px;
+}

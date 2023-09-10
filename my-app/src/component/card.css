@@ -1,0 +1,40 @@
+.Card {
+    transition: transform 0.5s;
+}
+.title{
+    font-size: 19px;
+}
+.textDesc{
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 13px;
+    font-style: normal;
+    color: #4A4A4A;
+}
+.Card:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 0px 8px rgba(0, 0, 0, 0.22);
+    transform: scale(1.04);
+}
+.cardHeight{
+    height: 100px;
+}
+
+.cardMovieImage{
+    object-fit: cover;
+    height: 352px;
+}
+
+.cardShadow {
+    border-radius: 8px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 0px 16px 0px rgba(0, 128, 128, 0.16);
+}
+
+.cardShadowFooter {
+    border-radius: 8px;
+    background: var(--white, #FFF);
+}
+
+
+
+
